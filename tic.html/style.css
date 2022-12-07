@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo&family=Baloo+Paaji+2&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+}
+nav{
+    background-color: rgb(182, 213, 182);
+    color: black;
+    height: 25px;
+    font-size: 10px;
+    padding: 7px;
+    font-family: 'Baloo Paaji 2';
+}
+.gameContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.container{
+    display: grid;
+    grid-template-rows: repeat(3,11vw);
+    grid-template-columns: repeat(3,11vw);
+    font-family:'Arimo', sans-serif;
+}
+
+.box{
+    border: 2Px solid rgb(0, 0, 0);
+    font-size: 9vw;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover{
+    background-color: rgba(177, 218, 207, 0.662);
+}
+
+.gameinfo{
+    padding: 30px ;
+     font-family: 'Baloo Paaji 2', cursive;
+}
+.gameInfo h1{
+    font-size: 2.5rem;
+}
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+#reset {
+    margin: 0 23px;
+    padding: 1px 18px;
+    background: #f2e5f9c4;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: 'Baloo Bhaina 2';
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.line{
+    background-color: black;
+    height: 3px;
+    width: 0;
+    position: absolute;
+    background-color: #e2b3b3;
+    transition: width 1s ease-in-out;
+}
+
+
+.imgbox img{
+    width: 0;
+    transition: width 1s ease-in-out;
+}
+
+   
